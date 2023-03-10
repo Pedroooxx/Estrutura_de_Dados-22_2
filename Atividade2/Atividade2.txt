@@ -1,0 +1,18 @@
+**ATIVIDADE 2**
+
+1.    Implemente um programa que solicite os dados de nome, idade e e-mail de uma pessoa e armazene os dados
+em uma estrutura.
+
+(a)   Crie uma função para imprimir os dados na tela.
+
+
+
+2. Crie uma estrutura representando os alunos de um determinado curso. A estrutura deve conter a matrícula do
+aluno, nome, nota da primeira prova, nota da segunda prova e nota da terceira prova.
+
+(a) Permita ao usuário entrar com os dados de 5 alunos.  
+
+(b) Para cada aluno, calcule a média final e diga se ele foi aprovado ou reprovado, considerando o valor 6 para
+aprovação.
+
+(c) Para calcular a média crie uma função.

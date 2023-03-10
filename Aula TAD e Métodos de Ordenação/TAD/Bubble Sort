@@ -1,0 +1,43 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int bubble(int vet[]){
+
+    int i,j;
+
+    for(i=0;i<6;i++){
+        
+        for(j=1;j<6;j++){
+            
+            if(vet[j-1] > vet[j]){
+                
+                troca(&vet[j], &vet[j-1]);
+            }
+        }
+    }
+    return vet;
+}
+
+void troca(int *x, int *y) {
+    
+    int aux;
+    
+    aux = *x;
+    *x = *y;
+    *y = aux;
+}
+
+
+int main(){
+
+    int vet[6] = {66,84,4,21,71,40};
+
+    int res[] = bubble(vet);
+
+    for(int i = 0; i < 6; i++){
+
+        printf("%d",vet[i]);  
+    }
+
+    return 0;
+}

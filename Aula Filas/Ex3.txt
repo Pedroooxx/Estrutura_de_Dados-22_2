@@ -1,0 +1,3 @@
+    Uma fila é uma estrutura em que para inserir um elemento, terá de inseri-lo ao
+fim da fila, e quando retirar um elemento, será o elemento na frente da fila.
+    Ela possui diferentes funções, dentre as principais: enfileirar e desenfileirar.
